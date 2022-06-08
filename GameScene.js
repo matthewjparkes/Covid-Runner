@@ -261,6 +261,7 @@ const SpaceBar = this.input.keyboard.addKey('SPACE')
 // Jumping Mechanic
 if (SpaceBar.isDown) {
     this.player.setVelocityY(-200);
+    
 }
 
 //Updating Score and Text
